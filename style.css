@@ -25,5 +25,23 @@ strong{
   justify-content: espace-between;
 }
 
-a{
+.apresentacao__links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.apresentacao__links__link{
+  border: 2px solid var(--cor-destaque);
+  width: 378px;
+  color: var(--cor-texto);
+  font-size:24px;
+  text-decoration: none;
+  padding: 21.5px;
+  border-radiius: 8px;
+  text-align: center;
+  font-weight: 600;
+  font-family: "montserrat", sans-serif
 }
